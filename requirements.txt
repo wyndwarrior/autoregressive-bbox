@@ -1,0 +1,12 @@
+numpy
+matplotlib
+opencv-python
+pythreejs
+quaternionic
+torch
+torchvision
+matplotlib
+ipywidgets
+ipython
+scipy
+pytorch3d
