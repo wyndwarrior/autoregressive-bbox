@@ -46,13 +46,7 @@ def Normalization(input_channels, norm):
         eps = norm.get("eps", 1e-5)
         momentum = norm.get("momentum", 0.01)
         return nn.BatchNorm2d(input_channels, eps=eps, momentum=momentum, affine=affine)
-
-    elif method == "batch3d":
-        affine = norm.get("affine", False)
-        eps = norm.get("eps", 1e-5)
-        momentum = norm.get("momentum", 0.01)
-        return nn.BatchNorm3d(input_channels, eps=eps, momentum=momentum, affine=affine)
-
+        
     elif method == "group":
         if "num_groups" in norm:
             num_groups = norm["num_groups"]

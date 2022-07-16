@@ -5,6 +5,7 @@ import torch.nn.functional as F
 
 
 def to_bbox(lengths, flatten_quaternion, flatten_position):
+    """Convert a set of lengths quaternions and positions to a bounding box."""
     flatten_dim = lengths
     boxesX = torch.zeros_like(flatten_dim).type_as(flatten_quaternion)
     boxesY = torch.zeros_like(flatten_dim).type_as(flatten_quaternion)
@@ -157,8 +158,6 @@ def dequantize(x, low, high, bins):
     step = (high - low) / (bins - 1)
     x = x * step + low
     return x
-
-
 
 def compute_dim_llh(lengths, pred_feats, rang, quant_order, autoreg_models):  # (n_obj, n_samp, 3), (n_obj, feats_dim)
     n_obj = lengths.shape[0]
