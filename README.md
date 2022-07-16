@@ -14,7 +14,8 @@ Pytorch implementation of our autoregressive model formulation for 3D bounding-b
  <sup>1</sup>Covariant.ai, <sup>2</sup>UC Berkeley \
 in ECCV 2022 
 
-<img src='imgs/model-estimation.png'/>
+<img src='imgs/model.png'/>
+<img src='imgs/model-2.png'/>
 <br/><br/>
 
 ### Autoregressive 3D Bounding Box Estimation
@@ -27,7 +28,6 @@ We provide two Jupyter notebooks:
 <br/><br/>
 
 ### Autoregressive 3D Bounding Box Detection
-<img src='imgs/model-detection.png'/>
 
 3D bounding box detection predicts 3D bounding box directly from a point cloud.
 
@@ -47,3 +47,8 @@ Each data point contains the following:
 - 3D Bounding Box of each object (N, 9) as determined by dimensions, center, and rotation.
 
 For more info and example code on how to load & interact with the data, refer to the `visualize_data.ipynb` Jupyter notebook.
+
+
+<img src='imgs/rgb.png' height=200/>
+<img src='imgs/segm.png' height=200/>
+<img src='imgs/bbox3d.gif' height=200/>
