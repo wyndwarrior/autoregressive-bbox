@@ -47,3 +47,8 @@ Each data point contains the following:
 - 3D Bounding Box of each object (N, 9) as determined by dimensions, center, and rotation.
 
 For more info and example code on how to load & interact with the data, refer to the `visualize_data.ipynb` Jupyter notebook.
+
+
+<img src='imgs/rgb.png' height=200/>
+<img src='imgs/segm.png' height=200/>
+<img src='imgs/bbox3d.gif' height=200/>
