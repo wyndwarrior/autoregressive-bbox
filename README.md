@@ -15,7 +15,6 @@ Pytorch implementation of our autoregressive model formulation for 3D bounding-b
 in ECCV 2022 
 
 <img src='imgs/model-estimation.png'/>
-<img src='imgs/bbox3d-animation.gif' height=200/>      
 <br/><br/>
 
 ### Autoregressive 3D Bounding Box Estimation
