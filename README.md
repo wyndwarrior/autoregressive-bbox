@@ -1,5 +1,5 @@
 # Autoregressive Uncertainty Modeling for 3D Bounding Box Prediction
-### [Project Page](https://bbox.yuxuanliu.com) | [Paper]() | [Data](https://drive.google.com/drive/u/1/folders/1dIH3SjsrWbSMvXIfrwcocQbM_73Io0vC)
+### [Project Page](https://bbox.yuxuanliu.com) | [Paper](https://arxiv.org/abs/2210.07424) | [Data](https://drive.google.com/drive/u/1/folders/1dIH3SjsrWbSMvXIfrwcocQbM_73Io0vC)
 
 Pytorch implementation of our autoregressive model formulation for 3D bounding-box estimation & detection. 
 
